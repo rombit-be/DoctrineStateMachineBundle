@@ -19,7 +19,7 @@
     "require": {
         "symfony/framework-bundle": "~2.3|~3.0",
         "doctrine/doctrine-bundle": "~1.2",
-        "kphoen/doctrine-state-machine": "~1.0"
+        "rombit/doctrine-state-machine": "~1.0"
     },
     "require-dev": {
         "symfony/console": "~2.3|~3.0",
@@ -32,5 +32,11 @@
     },
     "autoload": {
         "psr-4": { "KPhoen\\DoctrineStateMachineBundle\\": "" }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:rombit-be/DoctrineStateMachineBehavior.git"
+        }
+    ]
 }
