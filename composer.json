@@ -1,5 +1,5 @@
 {
-    "name": "kphoen/doctrine-state-machine-bundle",
+    "name": "rombit/doctrine-state-machine-bundle",
     "description": "Integrates DoctrineStateMachineBehavior in Symfony2.",
     "keywords": ["behavior", "doctrine2", "extension", "statemachine"],
     "type": "symfony-bundle",
@@ -9,6 +9,11 @@
             "name": "Kévin Gomez",
             "email": "contact@kevingomez.fr",
             "homepage": "http://www.kevingomez.fr/"
+        },
+        {
+            "name": "Victor Jacobs",
+            "email": "victor@rombit.be",
+            "homepage": "http://www.rombit.be"
         }
     ],
     "require": {
