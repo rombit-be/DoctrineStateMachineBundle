@@ -1,5 +1,5 @@
 {
-    "name": "rombit/doctrine-state-machine-bundle",
+    "name": "oenie/doctrine-state-machine-bundle",
     "description": "Integrates DoctrineStateMachineBehavior in Symfony2.",
     "keywords": ["behavior", "doctrine2", "extension", "statemachine"],
     "type": "symfony-bundle",
@@ -17,9 +17,9 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": "~2.3|~3.0",
+        "symfony/framework-bundle": "~2.3|~3.0|~4.0",
         "doctrine/doctrine-bundle": "~1.2",
-        "rombit/doctrine-state-machine": "~1.2"
+        "oenie/doctrine-state-machine": "master"
     },
     "require-dev": {
         "symfony/console": "~2.3|~3.0",
