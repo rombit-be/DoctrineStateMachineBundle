@@ -6,7 +6,7 @@ use Symfony\Component\Config\Definition\Processor;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Symfony\Component\DependencyInjection\DefinitionDecorator;
+use Symfony\Component\DependencyInjection\ChildDefinition;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
@@ -60,7 +60,7 @@ class KPhoenDoctrineStateMachineExtension extends Extension
 
         foreach ($machines as $name => $config) {
             $container
-                ->setDefinition('kphoen.state_machine.loader.'.$name, new DefinitionDecorator('kphoen.state_machine.array_loader'))
+                ->setDefinition('kphoen.state_machine.loader.'.$name, new ChildDefinition('kphoen.state_machine.array_loader'))
                 ->replaceArgument(0, $config)
                 ->addTag('state_machine.loader', array('state_machine' => $name))
             ;
