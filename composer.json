@@ -25,7 +25,7 @@
     "require": {
         "symfony/framework-bundle": "~2.3|~3.0|~4.0",
         "doctrine/doctrine-bundle": "~1.2",
-        "oenie/doctrine-state-machine": "master"
+        "rombit/doctrine-state-machine": "^1.2.0"
     },
     "require-dev": {
         "symfony/console": "~2.3|~3.0",
