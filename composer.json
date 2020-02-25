@@ -24,7 +24,7 @@
     ],
     "require": {
         "symfony/framework-bundle": "~2.3|~3.0|~4.0",
-        "doctrine/doctrine-bundle": "~1.2",
+        "doctrine/doctrine-bundle": "~1.2|~2.0",
         "rombit/doctrine-state-machine": "^1.2.0"
     },
     "require-dev": {
